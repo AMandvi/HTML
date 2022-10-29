@@ -1,0 +1,88 @@
+/* CSS RESET */
+*{
+    margin:0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+/* CONTAINER DIV */
+.container{
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+/* Heading h1 */
+    h1{
+        height: 50px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    h2{
+        height: 50px;
+        color: black;
+        /* background-color: brown; */
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* MAIN DIV */
+    main{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+
+        /* PROFILE */
+        .profile{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 2px solid black;
+            margin-right: 10px;
+            /* padding-top: 10px; */
+            width: 150px;
+            min-height: 30px;
+        }
+        #user-img{
+            /* position: relative; */
+            /* bottom: 10px; */
+            width: 60px;
+            height: 60px;
+        }
+        /* LIKES COUNT */
+        .requests{
+            border: 2px solid black;
+            width: 500px;
+            margin-bottom: 5px;
+        }
+        .count_likes{
+            display: flex;
+            justify-content: space-between;
+            /* width: 200px; */
+
+        }
+        #likeandbutton{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px;
+
+        }
+        .like_btn{
+            background-color: yellow;
+            width: 80px;
+            padding: 4px 8px;
+            box-shadow: black 3px 5px;
+            
+        }
+        p{
+            padding: 10 px;
+        }
+        h4{
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+        a{
+            color: #21649e;
+        }
