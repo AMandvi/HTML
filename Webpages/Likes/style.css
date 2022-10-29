@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    color: black
+    font-family: sans-serif;
+}
+main{
+    width: 400px;
+    min-height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.count_likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.like_btn{
+    background-color: yellow;
+    padding: 4px 8px;
+    box-shadow: black 3px 5px;
+    margin-top: 10px;
+}
+.p_tag{
+    margin: 10px 20px;
+}

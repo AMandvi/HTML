@@ -1,0 +1,23 @@
+h1{
+    color:whitesmoke;
+    background-color:black;
+    
+}
+span{
+    color:aqua;
+}
+
+h2{
+    color:whitesmoke;
+    background-color: purple;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    background-color: skyblue;
+    text-align: end;
+    text-decoration: underline;
+
+
+}

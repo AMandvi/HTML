@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CONTAINER-DIV -->
+    <div class="container">
+        <!-- NAV BAR -->
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="alert('Loading weather report')">Burbank</li>
+                <li onclick="alert('Loading weather report')">Chicago</li>
+                <li onclick="alert('Loading weather report')">Dallas</li>
+            </ul>
+        </nav>
+        <!-- TEMPERATURE-SELECT -->
+        <div class="temp_select">
+            <h3>San Jose</h3>
+            <div class="temp-scale">
+                <p>show temperature in </p>
+                <select name="temp" onchange="convertTemp(this)" >
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="week_temp">
+            <div class="day">
+                <h4>Today</h4>
+                <img src="assets/some_rain.png" alt="some_rain">
+                <p>some rain</p>
+                <div class="temperature">
+                    <p class="temp">24°</p>
+                    <p class="temp">18°</p>
+                </div>
+
+            </div>
+            <div class="day">
+                <h4>Tomorrow</h4>
+                <img src="assets/some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p class="temp">27°</p>
+                    <p class="temp">19°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h4>Friday</h4>
+                <img src="assets/some_clouds.png" alt="some_clouds">
+                <p>some clouds</p>
+                <div class="temperature">
+                    <p class="temp">21°</p>
+                    <p class="temp">16°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h4>Saturday</h4>
+                <img src="assets/some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="temperature">
+                    <p class="temp">26°</p>
+                    <p class="temp">21°</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <p>This site makes use of third party cookies, by clicking "I accept"
+        you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+        <button onclick="accept()" id="accept_btn" >I accept</button>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
